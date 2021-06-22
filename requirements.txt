@@ -56,7 +56,6 @@ future==0.18.2
 gast==0.4.0
 gevent 
 glob2 
-gmpy2==2.0.8
 google-auth==1.32.0
 google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
