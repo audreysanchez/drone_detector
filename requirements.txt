@@ -84,16 +84,6 @@ Jinja2
 joblib 
 json5==0.9.5
 jsonschema 
-jupyter==1.0.0
-jupyter-client 
-jupyter-console 
-jupyter-core 
-jupyter-packaging 
-jupyter-server 
-jupyterlab 
-jupyterlab-pygments 
-jupyterlab-server 
-jupyterlab-widgets 
 Keras==2.4.3
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
