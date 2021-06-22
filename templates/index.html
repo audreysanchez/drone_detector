@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Drone Detector</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Drone Detector</h1>
+        <p>
+            The purpose of this web app is to demonstrate the results of the trained convoluted neural network(CNN)
+            by choosing a random image from a folder that has drone and not drone images. <br>
+            Then the random image chosen will be run through the program and the result will be displayed. <br>
+            Right now the web app was made so that you have to reload the page so a new random image is chosen so please
+            be patient and wait for the page to load.
+        </p>
+       
+        <div class="testImg_container">
+            <div class="img_container">
+                <h2>Drone or Not a Drone?</h2>
+                <img src="{{ url_for('static', filename='/images/') }}{{d}}" alt="random image">
+            </div>
+          
+        </div>
+
+        <h1>CNN Results</h1>
+
+        <div class="ml_container">
+            <div class="results">
+                <h2 style="color: red;">{{r}}</h2>
+            </div>
+        </div>
+
+    </div>  
+ 
+</body>
+</html>
