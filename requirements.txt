@@ -33,7 +33,6 @@ chardet
 click 
 cloudpickle 
 colorama 
-conda-build==3.21.4
 conda-content-trust 
 conda-pack 
 conda-package-handling 
