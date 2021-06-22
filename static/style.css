@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(231, 224, 224);
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.testImg_container, .ml_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container, .results{
+    margin: 0 10px;
+}
+
+h1{
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    display: table;
+    margin: auto;
+    text-align: left;
+}
+
+
+
+
+
