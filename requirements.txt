@@ -169,7 +169,6 @@ Pygments
 pylint 
 pyls-black  
 pyls-spyder  
-pyodbc===4.0.0-unsupported
 pyOpenSSL  
 pyparsing  
 pyrsistent 
