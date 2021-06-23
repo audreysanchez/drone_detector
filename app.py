@@ -3,7 +3,8 @@ from flask import Flask, render_template, request
 import os, random
 
 app = Flask(__name__)
-
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.ERROR)
 
 @app.route("/")
 def main():
