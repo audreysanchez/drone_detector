@@ -1,3 +1,4 @@
+--use-feature=2020-resolver
 absl-py==0.13.0
 alabaster
 anyio 
@@ -178,8 +179,7 @@ rope
 rsa==4.7.2
 Rtree  
 scikit-image==0.18.1
-scikit-learn  
-scipy  
+scikit-learn    
 seaborn  
 SecretStorage  
 Send2Trash  
