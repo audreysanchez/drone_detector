@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from keras import preprocessing
 from keras.models import load_model
 from glob import glob
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 tf.disable_v2_behavior()
 tf.get_logger().warning('test')
 # WARNING:tensorflow:test
