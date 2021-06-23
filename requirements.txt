@@ -154,7 +154,6 @@ pyflakes
 Pygments 
 pylint 
 pyls-black  
-pyls-spyder  
 pyOpenSSL  
 pyparsing  
 pyrsistent 
@@ -192,14 +191,6 @@ snowballstemmer
 sortedcollections 
 sortedcontainers  
 soupsieve  
-Sphinx  
-sphinxcontrib-applehelp  
-sphinxcontrib-devhelp  
-sphinxcontrib-htmlhelp  
-sphinxcontrib-jsmath  
-sphinxcontrib-qthelp  
-sphinxcontrib-serializinghtml  
-sphinxcontrib-websupport  
 SQLAlchemy  
 statsmodels  
 sympy  
