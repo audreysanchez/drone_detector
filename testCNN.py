@@ -15,7 +15,7 @@ def cnn_dronePred(img_test):
     width = 96
     height = 96
 
-    model = load_model('app/drone_detector.h5')
+    model = load_model('drone_detector.h5')
 
     base_path_img = "static/images"
     images = []
