@@ -4,8 +4,12 @@ import matplotlib.pyplot as plt
 from keras import preprocessing
 from keras.models import load_model
 from glob import glob
-import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+tf.get_logger().warning('test')
+# WARNING:tensorflow:test
+tf.get_logger().setLevel('ERROR')
+tf.get_logger().warning('test')
 #CNN Model will determine if picture is of a drone
 
 def cnn_dronePred(img_test):
