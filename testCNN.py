@@ -1,13 +1,6 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import signal
-from scipy.io import wavfile as wav
-from scipy.fftpack import fft, fftfreq
-from scipy.misc import electrocardiogram
-from scipy.io.wavfile import write
-from scipy.signal import find_peaks
-from time import sleep
 from keras import preprocessing
 from keras.models import load_model
 from glob import glob
